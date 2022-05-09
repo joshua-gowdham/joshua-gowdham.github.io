@@ -1,16 +1,18 @@
-title {
+.title {
 font-family: Arial, Helvetica, sans-serif;
 color: 042e27 ;
 border: red ;
 text-align: center;
 }
 
-body {
-font-family: Arial, Helvetica, sans-serif;
+.p {
+font-family:'Times New Roman', Times, serif;
 color: 042e27 ;
 }
 
-h1 {
-
+.h1 {
+font-family: Arial, Helvetica, sans-serif;
+color: 042e27 ;    
 }
+
 
