@@ -1,24 +1,25 @@
 h1 {
 background-image: url("backgroundimage.jpeg");
 font-family: Arial, Helvetica, sans-serif;
-color: 042e27 ;
+color: white;
 border: red ;
 text-align: center;
 }
 
 p {
 font-family:'Times New Roman', Times, serif;
-color: 042e27 ;
+color: white ;
 }
 
 h2 {
 font-family: Arial, Helvetica, sans-serif;
-color: 042e27 ; 
+color: white ; 
 text-align: center;   
 }
 
 body{
     background-image: url("backgroundimage.jpeg");
+    color: white ; 
 }
 
 
