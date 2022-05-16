@@ -7,15 +7,15 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 30%;
-    left: 90%;
+    top: 20%;
+    left: 92.5%;
     transform: translate(-100%, -100%);
     z-index: 2;
     width: 80%;
     padding: 20px;
     text-align: center;
   }
-h1 {
+h1{
 
 font-family: Arial, Helvetica, sans-serif;
 color: white;
@@ -24,7 +24,7 @@ text-align: center;
 }
 
 p {
-font-family:'Times New Roman', Times, serif;
+font-family: Arial, Helvetica, sans-serif;
 color: white ;
 }
 
