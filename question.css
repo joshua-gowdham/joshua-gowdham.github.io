@@ -1,0 +1,52 @@
+body {
+background-image: url("question1.jpg");  
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 2000px;
+background-position: center center;
+position: relative;
+margin: 0;
+}
+
+.prompt{
+ display: flex;
+ margin: 100px 0;
+ position: absolute;
+ top: 5%;
+ left: 91%;
+ transform: translate(-100%, -100%);
+ z-index: 2;
+ width: 80%;
+ padding: 20px;
+ text-align: center;
+ display: block;
+}
+
+
+code{
+color: white;
+text-align: left;
+}
+
+.code{
+background-color: rgb(0, 0, 0); 
+background-color: rgba(0,0,0, 0.4); 
+color: white;
+font-weight: bold;
+position: absolute;
+top: 50%;
+left: 22.5%;
+transform: translate(-100%, -100%);
+width: 20%;
+padding: 54px;
+text-align: left;
+}
+
+h2{
+font-family: 'Source Code Pro', monospace;
+color: white ; 
+text-shadow: 2px 2px 4px #000000;
+text-align: center; 
+}
+
