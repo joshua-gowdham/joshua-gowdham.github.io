@@ -8,8 +8,7 @@
 <body>
     <div class="prompt">
         <h2>
-            You are on a ship that visits Antartica. During the trip, the employees on board the ship talk about all the escape plans, incase of an emergency. There are 130 exists, with 16 different floors. Flares are on the 3rd floor, and you are currently on trhe 8th.
-            Unfortunatly, the ship hits an unwanted iceburg, crashing into the side of the mainland. The nearest port is 100 kilometers away.
+            You have repaired the water leak and assessed that the damage is minimal and are able to salvage a flare gun and a compass. You get back the main deck and are prepared to steer away however you notice that your coordinates on your radar have been scrambled. Answer the following question correctly to fix your radar.
         </h2>
     </div>
     <div class="code">
@@ -19,34 +18,39 @@ import java.util.Scanner;
 
 public class Question2 {
  public static void main(String[] args) {
-  Scanner scnr = new Scanner(System.in);
-                
-   int time = scnr.nextInt();
-                
-    if (time < 17) {
-     System.out.println("Have a Good Morning");
-      } 
-      else {
-       System.out.println("Have a Wonderful Evening");
+    Scanner scnr = new Scanner(System.in);
+        
+    int time = scnr.nextInt();
+        
+    if (time <= 12) {
+            System.out.println("Have a Good Morning");
+        } 
+        
+    else if (time > 12 && time < 18) {
+        System.out.println("Have a Good Afternoon");
+        } 
+        
+    else {
+        System.out.println("Have a Good Night");
         }
-     }
- }
+    }
+}
 </pre>
 </code>
 
 
-<h2>If the user enters:</h2>
+<h2>If the user inputs:</h2>
 
-<h2>1 2 3 4</h2>
+<h2>15</h2>
 
-<h2>What is the outputted value?</h2>
+<h2>What is the output?</h2>
 </div>
 
  
-<button class="button"> <a href="correct.html"> A: 1</a></button> 
-<button class="button"><a href="incorrect.html"> B: 2</a></button> 
-<button class="button"><a href="incorrect.html"> C: 3</a></button>
-<button class="button"><a href="incorrect.html"> D : 4 </a> </button>
+<button class="button"> <a href="incorrect2.html"> A: Have a Good Morning</a></button> 
+<button class="button"><a href="correct2.html"> B: Have a Good Afternoon</a></button> <!--Correct Answer-->>
+<button class="button"><a href="incorrect2.html"> C: Have a Good Night</a></button>
+<button class="button"><a href="incorrect2.html"> D : No outcome</a> </button>
 </div>
 
 </body>

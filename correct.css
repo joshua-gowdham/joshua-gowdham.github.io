@@ -17,10 +17,6 @@
     
     }
     
-    .button :hover{
-    
-    }
-    
     a{
         font-family: 'Source Code Pro', monospace;
         color: white ; 
@@ -52,7 +48,7 @@ text-align: center;
 }
 
 body {
-    background-image: url();  
+    background-image: url(correct.jpeg);  
     background-repeat: no-repeat;
     background-size: cover;
 }

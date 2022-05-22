@@ -14,9 +14,8 @@
     left: 40%;
     z-index: 5;
     margin: 20px ;
+    
     }
-    
-    
     
     a{
         font-family: 'Source Code Pro', monospace;
@@ -49,7 +48,7 @@ text-align: center;
 }
 
 body {
-    background-image: url("shipsink.jpeg");  
+    background-image: url(congrats.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
 }
