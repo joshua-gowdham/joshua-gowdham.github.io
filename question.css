@@ -50,3 +50,34 @@ text-shadow: 2px 2px 4px #000000;
 text-align: center; 
 }
 
+
+
+.button{
+border: none;
+padding: 40px 40px;
+color: black;
+background:linear-gradient(to right, rgb(208, 208, 227), rgb(110, 173, 210));
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+transition-duration: 0.4s;
+cursor: pointer;
+position: relative;
+top: 30%;
+left: 25%;
+z-index: 5;
+margin-left: 10px ;
+
+}
+
+.button :hover{
+
+}
+
+a{
+    font-family: 'Source Code Pro', monospace;
+    color: white ; 
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center; 
+}
