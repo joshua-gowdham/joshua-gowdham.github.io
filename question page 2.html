@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="question.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="prompt">
+        <h2>
+            You are on a ship that visits Antartica. During the trip, the employees on board the ship talk about all the escape plans, incase of an emergency. There are 130 exists, with 16 different floors. Flares are on the 3rd floor, and you are currently on trhe 8th.
+            Unfortunatly, the ship hits an unwanted iceburg, crashing into the side of the mainland. The nearest port is 100 kilometers away.
+        </h2>
+    </div>
+    <div class="code">
 <pre>
     <code>
-
 import java.util.Scanner;
-public class MyClass {
-    public static void main(String args[]) {
-        Scanner scnr = new Scanner(System.in);
-        
-        double[] numbers = new double[4];
 
-
-        for (int i = 0; i < numbers.length; i++){
-            
-            int input = scnr.nextInt();
-            
-            if (input == 2) {
-                System.out.println("Correct");
-                // 2 == Defusing
-            }
-            
-            else {
-                System.out.println("Incorrect");
-            }
-            
+public class Question2 {
+ public static void main(String[] args) {
+  Scanner scnr = new Scanner(System.in);
+                
+   int time = scnr.nextInt();
+                
+    if (time < 17) {
+     System.out.println("Have a Good Morning");
+      } 
+      else {
+       System.out.println("Have a Wonderful Evening");
         }
-    }
-}
+     }
+ }
+</pre>
+</code>
 
-</pre></code>
 
-<p>If the user enters:</p>
+<h2>If the user enters:</h2>
 
-<p>1 2 3 4</p>
+<h2>1 2 3 4</h2>
 
-<p>Incorrect</p>
-<p>Correct</p>
-<p>Incorrect</p>
-<p>Incorrect</p>
+<h2>What is the outputted value?</h2>
+</div>
 
-<p> If you are defending, and the spike has been planted, how can you win once all enemies have been eliminated?</p>
+ 
+<button class="button"> <a href="correct.html"> A: 1</a></button> 
+<button class="button"><a href="incorrect.html"> B: 2</a></button> 
+<button class="button"><a href="incorrect.html"> C: 3</a></button>
+<button class="button"><a href="incorrect.html"> D : 4 </a> </button>
+</div>
 
-<a href="incorrect2.html">Running Away</a>
-<a href="correct2.html">Defusing</a>
-<a href="incorrect2.html">Eliminating Yourself</a>
-<a href="incorrect2.html">T - Bagging</a>
-
+</body>
 </html>
+
+
+

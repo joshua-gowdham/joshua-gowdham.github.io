@@ -15,45 +15,41 @@
     <div class="code">
 <pre>
     <code>
-        import java.util.Scanner;
-        public class MyClass {
-            public static void main(String args[]) {
-                Scanner scnr = new Scanner(System.in);
-    
-                
-                double[] numbers = new double[4];
-    
-    
-                for (int i = 0; i < numbers.length; i++){
-                    
-                    int input = scnr.nextInt();
-                
-                    if (input == 130) {
-                        System.out.println("Correct");
-                    }
+import java.util.Scanner;
+public class Question1 {
+ public static void main(String[] args) {
+    Scanner scnr = new Scanner(System.in);
+
+    int[] int_arr = new int[4];
+
+    for (int i = 0; i < int_arr.length; ++i) {
+    int_arr[i] = scnr.nextInt();
+     }
+
+    int a = int_arr[0];
+    int_arr[0] = int_arr[3];
+    int_arr[3] = a;
         
-                    else {
-                        System.out.println("Incorrect");
-                    }
-                }
-            }
+    System.out.println(int_arr[3]);
+        
     }
+}
 </pre>
 </code>
 
 
 <h2>If the user enters:</h2>
 
-<h2>100 110 120 130</h2>
+<h2>1 2 3 4</h2>
 
-<h2>What Answer Do They Get?</h2>
+<h2>What is the outputted value?</h2>
 </div>
 
  
-<button class="button"> <a href="incorrect.html"> A: Incorrect Correct Incorrect Correct</a></button>
-<button class="button"><a href="incorrect.html"> B: Correct Correct Correct Correct</a></button>
-<button class="button"><a href="correct.html"> C: Incorrect Incorrect Incorrect Correct</a></button>
-<button class="button"><a href="incorrect.html"> D : No Answer </a> </button>
+<button class="button"> <a href="correct.html"> A: 1</a></button> 
+<button class="button"><a href="incorrect.html"> B: 2</a></button> 
+<button class="button"><a href="incorrect.html"> C: 3</a></button>
+<button class="button"><a href="incorrect.html"> D : 4 </a> </button>
 </div>
 
 </body>

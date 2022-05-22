@@ -1,0 +1,58 @@
+.button{
+    border: none;
+    padding: 40px 40px;
+    color: black;
+    background:linear-gradient(to right, rgb(208, 208, 227), rgb(110, 173, 210));
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    z-index: 5;
+    margin: 20px ;
+    
+    }
+    
+    .button :hover{
+    
+    }
+    
+    a{
+        font-family: 'Source Code Pro', monospace;
+        color: white ; 
+        text-shadow: 2px 2px 4px #000000;
+        text-align: center; 
+    }
+
+.bg-title{
+background-color: rgb(0, 0, 0); 
+background-color: rgba(0,0,0, 0.4); 
+color: white;
+font-weight: bold;
+border: 3px solid;
+border-image: linear-gradient(to right, rgb(7, 7, 136), rgb(109, 9, 159)) 1;
+position: absolute;
+top: 50%;
+left: 91%;
+transform: translate(-100%, -100%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+}
+
+h1{
+font-family: 'Libre Franklin', sans-serif;
+ color: white;
+text-align: center;
+}
+
+body {
+    background-image: url("shipsink.jpeg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
